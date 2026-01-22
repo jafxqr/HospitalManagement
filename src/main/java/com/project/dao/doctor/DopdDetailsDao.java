@@ -20,7 +20,6 @@ public class DopdDetailsDao
 {
 	@Autowired
 	SessionFactory sf;
-	
 	@Autowired
 	LoginDao infoLog;
 	
