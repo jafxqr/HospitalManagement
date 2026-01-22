@@ -40,7 +40,6 @@ public class DopdDetailsDao
 		    ArrayList<Patient> patients= new ArrayList<Patient>();
 		    for(String pid: lst)
 		    {
-
 		      Query q2= session.createQuery("from Patient where pid= :id");	
 			  q2.setParameter("id", pid);
 			  Patient p= (Patient) q2.uniqueResult();
